@@ -14,10 +14,14 @@ width:70%;}
 .nav-link,
 .navbar-brand {
     color: #fff;
-    cursor: pointer;
+  cursor: pointer;
 }
 .nav-link {
     margin-right: 1em !important;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
 }
 .nav-link:hover {
     color: #000;
