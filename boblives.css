@@ -124,10 +124,7 @@ justify-content:space-between;
   #tick
   li:before {content:"\2714\0020"; } 
     ul{list-style-type:none;}
-    @media (min-height: 350px) {.center
-    {display: flex;
-    align-items: center;
-  justify-content: center;} }
+    
     
 .gallery {
 width:70px;
