@@ -5,7 +5,7 @@ html, body {width: auto!important;
      margin:0;
  }
  .navbar {
-     background:#640020;
+     background:#173459;
  }
  .logo{
  padding:0;
@@ -65,7 +65,7 @@ html, body {width: auto!important;
    position: absolute;
    bottom: 5px;
    right: 8px;
-   color:#640020;
+   color:#173459;
    font-weight: 900;
    }
    img {
@@ -73,39 +73,6 @@ html, body {width: auto!important;
    height: auto;
   
    }
-    
-  }
-  .whatsapp-icon {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366; /* Green background color */
-  text-align: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-.whatsapp-icon a {
-  display: block;
-  text-decoration: none;
-  color: white; /* White text color */
-  transition: transform 0.2s;
-}
-
-.whatsapp-icon:hover {
-  transform: scale(1.1);
-}
-
-.overlay-text {
-  font-size: 12px;
-  margin-top: 5px;
-}
-
-.whatsapp-icon img {
-  width: 40px;
-  height: 40px;
-  margin-top: 10px;
-}
-
    .gfont{font-family: 'Arvo', serif;}
    .therapy{font-family: 'Arvo', serif;
    color:red;}
@@ -129,17 +96,6 @@ html, body {width: auto!important;
  flex-wrap:nowrap;
  justify-content:space-between;
  }}
-.paragraph-container {
-    margin: 20px; /* Adjust the margin size as needed */
-}
-
-.big-text {
-    font-size: 24px; /* Adjust the font size as needed */
-}
-.highlighted-text {
-    background-color: yellow; /* Change the color to your preferred highlight color */
-    font-weight: bold; /* Optionally, you can make the text bold */
-}
  @import 'https://fonts.googleapis.com/css?family=Roboto';
      html, body {
      }
@@ -231,7 +187,7 @@ html, body {width: auto!important;
  .imported{color:red;
  text-align:center;}
  body{font-family:monteserrat;}
- .upper{background:#640020;
+ .upper{background:#173459;
  color:white}
  .xlarge{
   font-family:`Tangerine' seriff;
@@ -274,7 +230,7 @@ html, body {width: auto!important;
        .form-container {
           margin: 20px;
           padding: 15px;
-          background: #640020;
+          background: #173459;
           color: white;
           -shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
        }
@@ -353,12 +309,12 @@ html, body {width: auto!important;
        }
        /* style the labels when their corresponding inputs are checked */
        input[type="checkbox"],input[type="radio"],:checked + label, input[type="radio"]:checked + label {
-       background: #170035;
+       background: #173459;
        color: white;
        }
        /* style the custom check boxes and radios when their corresponding inputs are checked */
        input[type="checkbox"]:checked + label > span, input[type="radio"]:checked + label > span {
-       background: #170035;}
+       background: #173459;}
        select {
        min-width:170px;
        height:40px;
@@ -386,7 +342,7 @@ html, body {width: auto!important;
   white-space:nowrap;
   color:white;
  position:relative;
- background-color:#640020;;
+ background-color:#173459;;
  }
  
  .cssmarquee p {
@@ -478,7 +434,21 @@ html, body {width: auto!important;
   font-weight:bold}
   }
   
- 
+  .whats-app{
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+ " font-size: 30px;
+  box-shadow: 3px 4px 3px #999;
+  right: 10px;
+  z-index: 100;
+  }
+  
   .my-float {
   margin-top: 12px;
   }
@@ -495,7 +465,7 @@ html, body {width: auto!important;
  text-align:center;}
  
  .footer-distributed{
-  background-color: #640202;;
+  background-color: #173459;;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -909,11 +879,6 @@ html, body {width: auto!important;
    color:#853518;
    margin:10px;
   font-family: 'Arvo', serif;}
-  .commonman
-  {
-    margin:10px;
-   font-family: 'Arvo', serif;}
-
   .help{
  margin:10px;
   font-family: 'Arvo', serif;}
@@ -956,34 +921,6 @@ html, body {width: auto!important;
   background-color:#665ae4;
   color:white;
            } 
-  .healthy{background-color:#c80f2e;
-color:white;
-text-align:center;
-vertical-align:middle;
-justify-content:center;}
-ol {
-  line-height: 2;
-}
-
-ol li {
-  list-style-type: none;
-  counter-increment: item;
-}
-
-ol li:before {
-  content: counter(item);
-  display: inline-block;
-  width: 12px;
-  height: 20px;
-  font-family: "Indie Flower", cursive;
-  margin-right: 5px;
-  background-color: #f9dd94;
-  color: #7eb4e2;
-  font-weight: bold;
-  font-size: 140%;
-  padding: 0 8px 8px;
-  border-radius: 3px;
-  line-height: 1.3;
-}
+          
           
  
